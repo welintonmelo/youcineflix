@@ -1,0 +1,75 @@
+
+
+body {
+    background-color:#344c9c;
+    color:#b4b6d4;
+    font-family: sans-serif;
+}
+
+
+header {
+    color: #ff5757;
+    font-size: 50px;
+    font-family: "Great Vibes", serif;
+}
+
+
+p{
+    font-size: 25px;
+}
+
+
+h1 {
+    font-size: 40px;
+}
+
+
+h2 {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 35px;
+    color: #ffffff;
+}
+ 
+.chamada {
+    color:#344c9c;
+    background: #9494cc;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex; /* torna flexivel = põe um do lado do outro */
+    justify-content: center; /* centralizar */  
+}
+
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+
+img{
+    height: 200px;
+}
+
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 100px;
+    background-image: linear-gradient( #9494cc, #166f40) ;
+}
+
+
+.categoria-videos{
+    display: flex;
+    overflow-x: auto; /* permite rolagem horizontal automática quando o  conteúdo exceder a largura da tela */
+    gap: 10px; /* adiciona espaçamento entre os elementos*/
+    padding-bottom: 10px;
+}
+
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid blueviolet;
+}
+
+
